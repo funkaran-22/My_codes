@@ -1,7 +1,7 @@
 /*
    File name	: impulse_seq.cpp
    Author	: Karan K. Bhat
-   Description	: This code prints input impulse sequence, and allows left, right shift.
+   Description	: This code prints input impulse sequence (fixed 32 bit), and allows left, right shift.
 		  Print is done in binary fashion.
 */
 
