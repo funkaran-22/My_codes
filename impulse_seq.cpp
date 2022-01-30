@@ -11,6 +11,11 @@
 
 using namespace std;
 
+/* 
+	Class Name: impulse_seq
+	Description: This class handles all the impulse sequence generation functions
+	Functions available: store, shift_left, shift_right, display
+ */
 class impulse_seq
 {
 	private:	
