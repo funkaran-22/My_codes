@@ -37,13 +37,13 @@ int main(void)
 
 	if( (rc1=pthread_create( &thread3,NULL,&functionC,NULL)) )
 	{
-		printf("Thread creation failed: %d\n", rc1, rc2);
+		printf("Thread creation failed: %d\n", rc1);
 	}
 
 	
 	if( (rc2=pthread_create( &thread4,NULL,&functionC,NULL)) )
 	{
-		printf("Thread creation failed: %d\n", rc1, rc2);
+		printf("Thread creation failed: %d\n", rc2);
 
 	}
 
